@@ -1,0 +1,12 @@
+{
+  "token": "${process.env.DISCORD_TOKEN}",
+  "robloxToken": "${process.env.ROBLOX_API_KEY}",
+  "allowedRoles": {
+    "logOffense": ["1326714738662440982"],
+    "removeOffense": ["1326714738662440982"],
+    "manageGuns": ["1326714738662440982"]
+  },
+  "database": {
+    "storage": "${process.env.DATABASE_PATH}"
+  }
+}
